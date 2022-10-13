@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Prediction</title>
+</head>
+    <body>
+        <h1>Predict the Flower</h1>
+        <p> Enter all the inputs in Centimeters
+        </p>
+        <form action="/" method="POST">
+            <input type="number" step="any" name="SepalLengthCm" placeholder="Enter SepalLengthCm">
+            <input type="number" step="any" name="SepalWidthCm" placeholder="Enter SepalWidthCm">
+            <input type="number" step="any" name="PetalLengthCm" placeholder="Enter PetalLengthCm">
+            <input type="number" step="any" name="PetalWidthCm" placeholder="Enter PetalWidthCm">
+            <input type="submit">
+        </form>
+        
+        <p>Your predicted flower is :</p>
+        {{my_marks}}
+        
+    </body>
+</html>
